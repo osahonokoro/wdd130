@@ -3,9 +3,11 @@ body {
     font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
-    background-color: #FDF0D5; /* Background matches site plan */
+    background-color: #FDF0D5;
+    /* Background matches site plan */
     text-align: center;
-    color: #391E3E; /* Primary text color */
+    color: #391E3E;
+    /* Primary text color */
 }
 
 /* Header */
@@ -14,7 +16,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #391E3E; /* Primary color */
+    background-color: #391E3E;
+    /* Primary color */
 }
 
 header img {
@@ -22,7 +25,8 @@ header img {
 }
 
 nav a {
-    color: #FDF0D5; /* Light contrast */
+    color: #FDF0D5;
+    /* Light contrast */
     text-decoration: none;
     font-weight: bold;
     margin: 0 15px;
@@ -34,13 +38,17 @@ nav a:hover {
 }
 
 img {
-    max-width: 100%; /* Ensures pictures doesn't overflow */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%;
+    /* Ensures pictures doesn't overflow */
+    height: auto;
+    /* Maintains aspect ratio */
 }
 
 .logo {
-    width: 150px; /* Adjust this to your preferred size */
-    height: auto; /* Keeps proportions */
+    width: 150px;
+    /* Adjust this to your preferred size */
+    height: auto;
+    /* Keeps proportions */
 }
 
 /* Hero Section */
@@ -94,13 +102,15 @@ img {
 /* Sections */
 section {
     padding: 20px;
-    background: #B5C4C0; /* Accent 2 */
+    background: #B5C4C0;
+    /* Accent 2 */
     margin: 20px;
     border-radius: 10px;
 }
 
 section h2 {
-    color: #D81E5B; /* Secondary color */
+    color: #D81E5B;
+    /* Secondary color */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -110,28 +120,4 @@ section p {
 
 /* Image Grid */
 section img {
-    width: 18%;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-/* Footer */
-footer {
-    background: #391E3E; /* Primary color */
-    padding: 20px;
-    color: white;
-}
-
-footer p {
-    margin: 0;
-}
-
-.sociallinks a img {
-    width: 30px;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.sociallinks a {
-    text-decoration: none;
-}
+    width
