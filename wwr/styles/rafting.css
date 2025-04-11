@@ -142,6 +142,7 @@ figcaption {
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 .contact-form legend {
     font-weight: bold;
 }
@@ -162,23 +163,34 @@ figcaption {
 }
 
 /* Footer */
+=======
+/* Footer (Updated) */
+>>>>>>> 4b8f9dc401d3b8759165c72fb17c0c5cc398ed36
 footer {
-    background: #391E3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #391E3E;
     padding: 20px;
     color: white;
+    flex-wrap: wrap;
 }
 
 footer p {
     margin: 0;
 }
 
-.sociallinks a img {
-    width: 30px;
-    /* Resize social media icons */
-    margin: 10px;
-    text-decoration: none;
+.sociallinks {
+    display: flex;
+    gap: 15px;
 }
 
-.sociallinks a {
-    text-decoration: none;
+.sociallinks a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.sociallinks a img:hover {
+    transform: scale(1.1);
 }
